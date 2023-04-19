@@ -7,6 +7,10 @@ const {parse, format} = require('url'); // eslint-disable-line node/no-deprecate
 const hostedGitInfo = require('hosted-git-info');
 const debug = require('debug')('get-git-auth-url');
 
+function someTest() {
+ // only to test the release version
+}
+
 function isNil(value) {
   return value == null;
 }
